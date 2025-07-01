@@ -25,7 +25,7 @@ const Login = () => {
             />          
           <div className="flex justify-end text-[14px] pt-2 text-[#78746D]">Forget password ?</div>
           <button className="w-full h-9 rounded-lg bg-[#223531] text-white mt-3 active:translate-y-0.5 cursor-pointer  hover:bg-[#2c423c] font-bold shadow-xl">Sign In</button>
-          <div className="pt-5 text-sm text-center text-[#78746D]">Don't you have an account? <a href=""><u>Sign Up</u></a></div>
+          <div className="pt-5 text-sm text-center text-[#78746D]">Don't you have an account? <a href="/register"><u>Sign Up</u></a></div>
         </div > 
       </div>
 

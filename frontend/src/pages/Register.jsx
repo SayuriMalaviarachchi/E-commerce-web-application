@@ -61,7 +61,7 @@ const Register = () => {
 
           {/* <div className="flex justify-end text-[14px]">Forget password ?</div> */}
           <button className="w-full h-9 rounded-lg bg-[#223531] text-white mt-3 active:translate-y-0.5 cursor-pointer hover:bg-[#2c423c] shadow-xl font-bold ">Sign up</button>
-          <div className="pt-4 text-sm text-center text-[#78746D]">Already have an account? <a href=""><u>Login</u></a></div>
+          <div className="pt-4 text-sm text-center text-[#78746D]">Already have an account? <a href="/login"><u>Sign In</u></a></div>
         </div >
         
         <div className="col-span-2 md:col-span-5 lg:col-span-3 hidden md:block">< img className="w-full h-130 rounded-xl" src={RegisterImg} /></div>
