@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroImg from '../../assets/home/heroSection/h10.png' ; // Adjust the path as necessary
+import HeroImg from '../../assets/home/heroSection/h11.png' ; // Adjust the path as necessary
 const Hero = () => {
   return (
     <div
