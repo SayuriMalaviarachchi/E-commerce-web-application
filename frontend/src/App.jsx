@@ -7,6 +7,8 @@ import Hero from './components/home/Hero'
 import ContactUs from './components/home/ContactUs'
 import Products from './components/home/Products'
 import Home from './pages/Home'
+import LimitedEdition from './components/home/LimitedEdition'
+import AboutUs from './components/home/AboutUs'
 
 function App() {
  
@@ -20,6 +22,9 @@ function App() {
         <Route path = '/contactUs' element = {<ContactUs/>} />
         <Route path = '/products' element = {<Products/>} />
         <Route path = '/home' element = {<Home/>} />
+        <Route path ='/limited' element = {<LimitedEdition/>} />
+        <Route path ='/aboutUs' element = {<AboutUs/>} />
+        
       </Routes>
       
     </Router>
