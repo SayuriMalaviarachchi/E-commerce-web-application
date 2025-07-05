@@ -20,7 +20,8 @@ const Footer = () => {
           </div>
           <div className="col-span-13 sm:col-span-3 sm:col-start-6 text-center ">
             <div className="pb-5 text-[15px] sm:text-xl font-bold text-[#223531]">Information</div>
-            <div className="pb-3 text-[10px] sm:text-sm cursor-pointer"><a href="http://" target="_blank" rel="noopener noreferrer">Terms & Conditions</a></div>
+            {/* Target is used to specify the URL of the page the link goes to. */}
+            <div className="pb-3 text-[10px] sm:text-sm cursor-pointer"><a href="http://" target="_blank" rel="noopener noreferrer">Terms & Conditions</a></div> 
             <div className="pb-3 text-[10px] sm:text-sm cursor-pointer"><a href="http://" target="_blank" rel="noopener noreferrer">Size guide</a></div>
             <div className="sm:pb-0 pb-3 text-[10px] sm:text-sm cursor-pointer"><a href="http://" target="_blank" rel="noopener noreferrer">About us</a></div>
           </div>
