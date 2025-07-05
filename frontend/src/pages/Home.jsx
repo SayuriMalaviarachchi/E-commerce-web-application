@@ -5,6 +5,7 @@ import ContactUs from '../components/home/ContactUs'
 import LimitedEdition from '../components/home/LimitedEdition'
 import AboutUs from '../components/home/AboutUs'
 import MarqueeBanner from '../components/home/MarqueeBanner'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <AboutUs/>
       <LimitedEdition/>      
       <ContactUs/>
+      <Footer/>
     </div>
     
   )
