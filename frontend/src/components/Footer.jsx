@@ -6,7 +6,7 @@ import {
   faThreads,
 } from "@fortawesome/free-brands-svg-icons";
 
-const Footer = () => {
+const Footer = ({ onContactClick }) => {
   return (
     <div className="bg-[#9e9b95]">
       <div className="container mx-auto">
@@ -16,7 +16,7 @@ const Footer = () => {
             <div className="pb-3 text-[10px] sm:text-sm cursor-pointer"><a href="http://" target="_blank" rel="noopener noreferrer">FAQ</a></div>
             <div className="pb-3 text-[10px] sm:text-sm cursor-pointer"><a href="http://" target="_blank" rel="noopener noreferrer">Track your order</a></div>
             <div className="pb-3 text-[10px] sm:text-sm cursor-pointer"><a href="http://" target="_blank" rel="noopener noreferrer">Returns</a></div>
-            <div className="pb-3 text-[10px] sm:text-sm cursor-pointer"><a href="http://" target="_blank" rel="noopener noreferrer">Contact us</a></div>
+            <div className="pb-3 text-[10px] sm:text-sm cursor-pointer" onClick={onContactClick} >Contact us</div>
           </div>
           <div className="col-span-13 sm:col-span-3 sm:col-start-6 text-center ">
             <div className="pb-5 text-[15px] sm:text-xl font-bold text-[#223531]">Information</div>

@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { forwardRef } from "react";
 
-const ContactUs = () => {
+const ContactUs = forwardRef((props, ref) => {
   return (
-    <div className='bg-[#bbb8b0]  pt-9 pb-10'>
+    <div ref={ref} className='bg-[#bbb8b0]  pt-9 pb-10'>
       <div className='container mx-auto grid '>
         <div className='text-[#223531] text-center sm:text-4xl font-bold col-span-10 mt-3'>Contact Us</div>
 
@@ -22,6 +22,6 @@ const ContactUs = () => {
       </div>
     </div>
   )
-}
+})
 
 export default ContactUs
