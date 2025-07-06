@@ -9,6 +9,7 @@ import Products from './components/home/Products'
 import Home from './pages/Home'
 import LimitedEdition from './components/home/LimitedEdition'
 import AboutUs from './components/home/AboutUs'
+import MenSection from './pages/MenSection'
 
 function App() {
  
@@ -18,7 +19,8 @@ function App() {
       <Routes>
         <Route path = '/register' element = {<Register/>}   />
         <Route path = '/login' element = {<Login/>}   />        
-        <Route path = '/home' element = {<Home/>} />
+        <Route path = '/' element = {<Home/>} />
+        <Route path = '/menS' element = {<MenSection/>} />
         
         
       </Routes>
