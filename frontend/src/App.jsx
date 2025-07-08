@@ -10,6 +10,7 @@ import Home from './pages/Home'
 import LimitedEdition from './components/home/LimitedEdition'
 import AboutUs from './components/home/AboutUs'
 import MenSection from './pages/MenSection'
+import WomenSection from './pages/WomenSection'
 
 function App() {
  
@@ -21,6 +22,7 @@ function App() {
         <Route path = '/login' element = {<Login/>}   />        
         <Route path = '/' element = {<Home/>} />
         <Route path = '/menS' element = {<MenSection/>} />
+        <Route path = '/womenS' element = {<WomenSection/>} />
         
         
       </Routes>
