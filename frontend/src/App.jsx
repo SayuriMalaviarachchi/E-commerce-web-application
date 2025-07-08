@@ -11,6 +11,8 @@ import LimitedEdition from './components/home/LimitedEdition'
 import AboutUs from './components/home/AboutUs'
 import MenSection from './pages/MenSection'
 import WomenSection from './pages/WomenSection'
+import ProductCard from './components/ProductCard'
+import ProductsAll from './pages/ProductsAll'
 
 function App() {
  
@@ -23,6 +25,8 @@ function App() {
         <Route path = '/' element = {<Home/>} />
         <Route path = '/menS' element = {<MenSection/>} />
         <Route path = '/womenS' element = {<WomenSection/>} />
+        <Route path = '/productCard' element = {<ProductCard/>} />
+        <Route path = '/productsAll' element = {<ProductsAll/>} />
         
         
       </Routes>
