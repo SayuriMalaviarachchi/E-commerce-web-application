@@ -13,8 +13,7 @@ function Home() {
     <div>
       <Hero/>
       <MarqueeBanner/>
-      <Products/>
-      
+      <Products/>      
       <AboutUs/>
       <LimitedEdition/>      
       <ContactUs />
