@@ -1,6 +1,67 @@
 import React from "react";
-import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
-import { ChevronDownIcon } from '@heroicons/react/20/solid'
+import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
+import { ChevronDownIcon } from "@heroicons/react/20/solid";
+import ProductCard from "../components/ProductCard";
+
+const productList = [
+  {
+    id: 1,
+    name: "T-Shirt",
+    price: 2000,
+  },
+  {
+    id: 2,
+    name: "Hoodie",
+    price: 4500,
+  },
+   {
+    id: 3,
+    name: "Hoodie",
+    price: 4500,
+  },
+   {
+    id: 4,
+    name: "Hoodie",
+    price: 4500,
+  },
+   {
+    id: 5,
+    name: "Hoodie",
+    price: 4500,
+  },
+   {
+    id: 6,
+    name: "Hoodie",
+    price: 4500,
+  },
+   {
+    id: 7,
+    name: "Hoodie",
+    price: 4500,
+  },
+   {
+    id: 8,
+    name: "Hoodie",
+    price: 4500,
+  },
+   {
+    id: 9,
+    name: "Hoodie",
+    price: 4500,
+  },
+   {
+    id: 10,
+    name: "Hoodie",
+    price: 4500,
+  },
+   {
+    id: 11,
+    name: "Hoodie",
+    price: 4500,
+  },
+  // add more products...
+];
+
 const ProductsAll = () => {
   return (
     <div className="bg-[#CAC7BF]">
@@ -47,11 +108,10 @@ const ProductsAll = () => {
                       License
                     </a>
                   </MenuItem>
-                 
                 </div>
               </MenuItems>
             </Menu>
-            <form >
+            <form>
               <label
                 for="default-search"
                 className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
@@ -93,7 +153,14 @@ const ProductsAll = () => {
             </form>
           </div>
         </div>
-        <div></div>
+        <div className="flex justify-center mt-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-15">
+          {productList.map((product) => (
+            <ProductCard key={product.id} product={product} />
+           
+          ))}
+        </div>
+        </div>
       </div>
     </div>
   );
