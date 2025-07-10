@@ -14,6 +14,7 @@ import WomenSection from './pages/WomenSection'
 import ProductCard from './components/ProductCard'
 import ProductsAll from './pages/ProductsAll'
 import SingleProduct from './pages/SingleProduct'
+import Cart from './pages/Cart'
 
 function App() {
  
@@ -29,6 +30,7 @@ function App() {
         <Route path = '/productCard' element = {<ProductCard/>} />
         <Route path = '/productsAll' element = {<ProductsAll/>} />
         <Route path = '/singleProduct' element = {<SingleProduct/>} />
+        <Route path = '/cart' element = {<Cart/>} />
         
       </Routes>
       
