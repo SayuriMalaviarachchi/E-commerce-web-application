@@ -15,6 +15,7 @@ import ProductCard from './components/ProductCard'
 import ProductsAll from './pages/ProductsAll'
 import SingleProduct from './pages/SingleProduct'
 import Cart from './pages/Cart'
+import Nav from './components/Nav'
 
 function App() {
  
@@ -31,7 +32,7 @@ function App() {
         <Route path = '/productsAll' element = {<ProductsAll/>} />
         <Route path = '/singleProduct' element = {<SingleProduct/>} />
         <Route path = '/cart' element = {<Cart/>} />
-        
+        <Route path = '/nav' element = {<Nav/>} />        
       </Routes>
       
     </Router>
